@@ -1,0 +1,288 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    <title>Currículo</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+    <script  src="https://code.jquery.com/jquery-3.6.3.min.js"  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="controls" onclick="cambiar()">
+                <a href="#1" >
+                    <div class="control active-btn" data-id="home">
+                        <i class="fas fa-home"></i>
+                    </div>
+                </a>
+                <a href="#2">
+                    <div class="control " data-id="estudios" >
+                        <i class="far fa-newspaper"></i>
+                    </div>
+                </a>    
+                <a href="#3">
+                    <div class="control" data-id="habilidades" >
+                        <i class="fas fa-user"></i>
+                    </div>
+                </a>
+                <a href="#4">
+                    <div class="control" data-id="experiencias" >
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                </a>
+                <a href="#5">
+                    <div class="control" data-id="contact" >
+                        <i class="fas fa-envelope-open"></i>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <div class="sections">
+            <!-- SECCION 1-->
+            <section id="1" class="header-content active">
+                <div class="left-header">
+                    <div class="image">
+                        <img src="./resources/img-principal.png" alt="">
+                    </div>    
+                </div>
+                <div class="right-header">
+                    <h1 class="name">
+                        Hola, soy <span>Nicolas Streitenberger.</span>
+                        Diseñador Gráfico.
+                    </h1>
+                    <p>
+                        Tengo 29 años, argentino y soy diseñar gráfico. Soy una persona proactiva, responsable, creativa, humilde, organizada y flexible
+                    que siempre da lo mejor para concretar los objetivos propios y de la empresa.
+                    Mi meta adquirir mayor conocimiento y experiencias tanto personales como profesionales.
+                    </p>
+                </div>
+            </section>
+
+            <!-- SECCION 2-->
+            <section id="2" class="fadeTop">
+                <div id="estudios ">
+                    <h2>ESTUDIOS</h2>
+                    <div id="flex">
+                        <div id="estudio1" class="estudio">
+                            <h6>2020</h6>
+                            <h5>Curso de Diseñador Ux/Ui</h5>
+                            <p>CoderHouse</p>
+                        </div>                        
+                        <div id="estudio2" class="estudio">
+                            <h6>2020</h6>
+                            <h5>Ingles Pre-Intermediate</h5>
+                            <p>Modern English School, Argentina</p>
+                        </div>
+                        <div id="estudio3" class="estudio">
+                            <h6>2018</h6>
+                            <h5>Diseñador Gráfico</h5>
+                            <p>Escuela de Artes Visuales Martín A. Malharro, Argentina</p>
+                        </div>
+                        <div id="estudio4" class="estudio">
+                            <h6>2010</h6>
+                            <h5>Bachiller en Medios y Servicios | Técnico Informático</h5>
+                            <p>Escuela de Educación Técnica Nº2, Argentina</p>
+                        </div> 
+                    </div>                   
+                </div>           
+            </section>
+
+            <!-- SECCION 3-->
+            <section id="3" class="fadeTop">
+                <div id="habilidades">
+                    <h2>HABILIDADES</h2>
+                    <div id="flex">
+                        <div id="habilidad1" class="habilidades">                                
+                                <div class="block">
+                                    <div class="box">
+                                        <p class="number">
+                                            <span class="num">95</span>
+                                            <span class="sub">%</span>
+                                        </p>
+                                        <p class="title">BRANDING</p>
+                                    </div>
+                                    <span class="dots"></span>
+                                    <svg class="svg">
+                                        <defs>
+                                            <linearGradient id="gradientStyle">
+                                                <stop offset="0%" stop-color="#565656" />
+                                                <stop offset="100%" stop-color="#b7b5b5" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle class="circle" cx="90" cy="90" r="80" />
+                                    </svg>
+                                </div>                               
+                        </div>
+                        <div id="habilidad3" class="habilidades">
+                            <div class="block">
+                                <div class="box">
+                                    <p class="number">
+                                        <span class="num">60</span>
+                                        <span class="sub">%</span>
+                                    </p>
+                                    <p class="title">DISEÑO UI</p>
+                                </div>
+                                <span class="dots"></span>
+                                <svg class="svg">
+                                    <defs>
+                                        <linearGradient id="gradientStyle">
+                                            <stop offset="0%" stop-color="#565656" />
+                                            <stop offset="100%" stop-color="#b7b5b5" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle" cx="90" cy="90" r="80" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div id="habilidad4" class="habilidades">
+                            <div class="block">
+                                <div class="box">
+                                    <p class="number">
+                                        <span class="num">90</span>
+                                        <span class="sub">%</span>
+                                    </p>
+                                    <p class="title">ILLUSTRATOR</p>
+                                </div>
+                                <span class="dots"></span>
+                                <svg class="svg">
+                                    <defs>
+                                        <linearGradient id="gradientStyle">
+                                            <stop offset="0%" stop-color="#565656" />
+                                            <stop offset="100%" stop-color="#b7b5b5" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle" cx="90" cy="90" r="80" />
+                                </svg>
+                            </div> 
+                        </div>
+                        <div id="habilidad5" class="habilidades">
+                            <div class="block">
+                                <div class="box">
+                                    <p class="number">
+                                        <span class="num">80</span>
+                                        <span class="sub">%</span>
+                                    </p>
+                                    <p class="title">PHOTOSHOP</p>
+                                </div>
+                                <span class="dots"></span>
+                                <svg class="svg">
+                                    <defs>
+                                        <linearGradient id="gradientStyle">
+                                            <stop offset="0%" stop-color="#565656" />
+                                            <stop offset="100%" stop-color="#b7b5b5" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle" cx="90" cy="90" r="80" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div id="habilidad6" class="habilidades">
+                            <div class="block">
+                                <div class="box">
+                                    <p class="number">
+                                        <span class="num">70</span>
+                                        <span class="sub">%</span>
+                                    </p>
+                                    <p class="title">FIGMA</p>
+                                </div>
+                                <span class="dots"></span>
+                                <svg class="svg">
+                                    <defs>
+                                        <linearGradient id="gradientStyle">
+                                            <stop offset="0%" stop-color="#565656" />
+                                            <stop offset="100%" stop-color="#b7b5b5" />
+                                        </linearGradient>
+                                    </defs>
+                                    <circle class="circle" cx="90" cy="90" r="80" />
+                                </svg>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- SECCION 4-->
+             <section id="4" class="fadeTop">
+                <div id="experiencias">
+                    <h2>EXPERIENCIAS LABORALES</h2>
+                    <div id="flex">
+                        <div id="experiencia1" class="exp">
+                            <h6>2015 - 2021</h6>
+                            <h5>Freelance</h5>
+                            <p>Diseño de marca, folletería, rotulación,
+                                        publicidad, contenidos para redes
+                                        sociales, señaletica.</p>
+                        </div>
+                        <div id="experiencia2" class="exp">
+                            <h6>2021</h6>
+                            <h5>Atlantic Security</h5>
+                            <p>Diseño gráfico en branding, carteleria y publicidad. </p>
+                        </div>
+                        <div id="experiencia3" class="exp">
+                            <h6>2018 - 2020</h6>
+                            <h5>Argenfer - Ferreteria Industrial</h5>
+                            <p>Diseño gráfico y publicidad, digital e impreso.</p>
+                        </div>
+                        <div id="experiencia4" class="exp">
+                            <h6>2017 - 2019</h6>
+                            <h5>Agencia Publicidad Perfil</h5>
+                            <p>Supervisor de promociones en via pública, promotores
+                                        y activaciones para Coca-Cola Company.</p>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            
+            <!-- SECCION 5-->
+            <section id="5" class="fadeTop">          
+
+                <h2>CONTACTO</h2>
+                <div class="caja">
+                    <div class="content">
+                        <div class="list-group">
+                            <p class="list-group-item"><a href="mailto:prueba@gmail.com target="_blank"><i class="fa-regular fa-envelope"></i></i></a></p><br> <!--correo-->
+                            <p class="list-group-item"><a href="https://ar.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a></p><br> <!--linkedin-->
+                            <p class="list-group-item"><a href="https://www.behance.net" target="_blank"><i class="fa-brands fa-behance" aria-hidden="true"></i></a></p><br> <!--behance-->
+                            <p class="list-group-item"><a href="https://wa.me/número" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></p><br> <!--whatsapp-->
+                        </div>
+                    </div>
+                    <div class="content">
+                        <form class="form" id="form1">
+
+                            <p class="name">
+                                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nombre" id="name" />
+                            </p>
+
+                            <p class="email">
+                                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                            </p>
+
+                            <p class="text">
+                                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Mensaje"></textarea>
+                            </p>
+
+				
+				<div class="submit">
+                                <input type="submit" value="ENVIAR" id="boton"/>
+                                <div class="transicion"></div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div> <!-- FIN CAJA-->
+            </section>  
+        </div>
+        <footer>
+            <center>
+                <p>Derechos reservados. @Nicolas Streitenberger</p>
+            </center> 
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
